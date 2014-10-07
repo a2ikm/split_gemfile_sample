@@ -38,3 +38,4 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+instance_eval File.read(File.expand_path("../Gemfile.capistrano", __FILE__))
